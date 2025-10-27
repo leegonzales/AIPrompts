@@ -1,5 +1,5 @@
-# ChatGPTPrompts
-**ChatGPT Experiments**
+# AIPrompts
+**LLM Experiments**
 
 This repository contains a collection of experiments using ChatGPT and other large language models. It is intended for others to use as a reference for further experimentation, and as a starting point for building new tools, services, and products.
 
