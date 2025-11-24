@@ -1,14 +1,38 @@
+# Organizational Say vs. Do Gap Analyzer
+
+## Purpose
+Comparative analysis of a named entity's (individual or organization) internal revealed persona versus external stated persona. Identifies "say vs. do" gaps by comparing self-authored writing with public reporting from reputable sources.
+
+## Use Cases
+- Due diligence on potential partners or acquisitions
+- Leadership assessment and organizational culture analysis
+- Brand authenticity and alignment evaluation
+- Reputation risk assessment
+- Strategic positioning and communication gap analysis
+
+## Instructions
+1. Specify the named entity (individual or organization)
+2. AI will analyze self-authored writing for revealed persona
+3. AI will conduct web research on reputable public sources for stated persona
+4. Receive comprehensive report with gap analysis and recommendations
+5. Review actionable insights for alignment or strategic response
+
+---
+
+## The Prompt
+
+```text
 Title: Comparative Analysis of [Named Entity]'s Public Persona Versus Revealed Persona
 
 Objective:
-Using the initial in-depth analysis of [Named Entity]'s self-authored writing—covering tone, style, cognitive and reasoning patterns, and psychometric insights—conduct additional web-based research on reputable public news sources, interviews, and analyses. Then, compare and contrast the external (publicly stated) persona with the internal (revealed) persona. The goal is to identify any “say vs. do” gaps, highlight alignments or discrepancies, and provide actionable insights on how these differences might affect the entity’s overall public image.
+Using the initial in-depth analysis of [Named Entity]'s self-authored writing—covering tone, style, cognitive and reasoning patterns, and psychometric insights—conduct additional web-based research on reputable public news sources, interviews, and analyses. Then, compare and contrast the external (publicly stated) persona with the internal (revealed) persona. The goal is to identify any "say vs. do" gaps, highlight alignments or discrepancies, and provide actionable insights on how these differences might affect the entity's overall public image.
 
 Instructions:
 
 Context Integration:
 
 Initial Analysis Reference:
-Use the previously completed analysis of [Named Entity]'s own writings (including style, cognitive patterns, and personality traits) as the foundational “revealed” persona.
+Use the previously completed analysis of [Named Entity]'s own writings (including style, cognitive patterns, and personality traits) as the foundational "revealed" persona.
 Additional Context:
 Assume that the initial report is available in the context window and should be referenced throughout this analysis.
 Data Collection & Web-Based Research:
@@ -19,43 +43,108 @@ Prioritize well-regarded sources (mainstream media, respected industry publicati
 Aggregation & Cataloging:
 Collect and catalog all relevant external materials, including publication dates, sources, and context.
 Ensure that all gathered external material supplements the initial internal analysis.
-Analysis of the “Revealed” Persona (Internal Self-Portrayal):
+Analysis of the "Revealed" Persona (Internal Self-Portrayal):
 
 Key Elements from Initial Analysis:
 Summarize the key findings from the self-authored writings regarding tone, cognitive and reasoning patterns, leadership style, values, and personality traits.
 Emphasize any explicit claims, stated values, or frameworks the entity uses to define their own approach.
-Analysis of the “Stated” Public Persona (External Portrayal):
+Analysis of the "Stated" Public Persona (External Portrayal):
 
 Media and Public Reporting:
 Summarize how the external, reputable sources portray [Named Entity] in terms of leadership, values, strengths, weaknesses, and overall public image.
 Identify key themes, events, or controversies that shape the public perception.
 Extracted Public Claims & Actions:
-Note any public statements or actions that highlight the entity’s values, priorities, or strategic approaches.
+Note any public statements or actions that highlight the entity's values, priorities, or strategic approaches.
 Comparative Analysis – Say vs. Do Gap:
 
 Alignment and Discrepancies:
 Compare the internal (revealed) persona from the initial analysis with the external (stated) persona gathered from reputable sources.
-Identify areas of clear alignment (where self-expression and external reporting are consistent) and discrepancies (where there are notable “say vs. do” gaps).
+Identify areas of clear alignment (where self-expression and external reporting are consistent) and discrepancies (where there are notable "say vs. do" gaps).
 Contextual Explanation:
 Analyze possible reasons for any discrepancies (e.g., market pressures, PR strategies, situational challenges).
-Discuss the implications of these differences on the entity’s overall reputation and effectiveness.
+Discuss the implications of these differences on the entity's overall reputation and effectiveness.
 Final Report Composition:
 
 Section 1: Revealed Persona Analysis:
-Provide a concise summary of the entity’s self-authored writing style, cognitive patterns, and personality traits (using the previous analysis as a base).
+Provide a concise summary of the entity's self-authored writing style, cognitive patterns, and personality traits (using the previous analysis as a base).
 Section 2: Stated Public Persona Analysis:
-Summarize the key insights from external sources regarding the entity’s public image, strengths, and any reported weaknesses or controversies.
+Summarize the key insights from external sources regarding the entity's public image, strengths, and any reported weaknesses or controversies.
 Section 3: Comparative Analysis (Say vs. Do):
 Present a side-by-side comparison of the revealed versus stated personas.
-Clearly highlight and document any “say vs. do” gaps, with supporting examples and citations from both the internal analysis and external research.
+Clearly highlight and document any "say vs. do" gaps, with supporting examples and citations from both the internal analysis and external research.
 Section 4: Actionable Insights & Recommendations:
 Offer practical recommendations for stakeholders or the entity itself on how to better align internal values with external perceptions, or interpret the discrepancies for strategic advantage.
 References & Documentation:
 List all sources used (both from the initial analysis and external research) with full details (URLs, publication names, dates).
 Usage Instructions:
 
-For a Specific Entity: Replace “[Named Entity]” with the actual name of the individual or organization to be analyzed.
+For a Specific Entity: Replace "[Named Entity]" with the actual name of the individual or organization to be analyzed.
 If Unspecified: The AI should prompt the user to provide the name of the entity.
 Integration of Context: Ensure that the analysis fully integrates and builds upon the initial self-analysis that is already present in the context.
 Web Research Authorization: The AI is directed to perform additional, reputable web-based research as necessary and incorporate those findings into the final analysis.
 Final Output: The final report should be comprehensive, balanced, and self-contained—providing clear, actionable insights into both the internal self-portrayal and the external public persona, along with an analysis of any gaps between them.
+```
+
+---
+
+## Analysis Framework
+
+**Section 1: Revealed Persona Analysis**
+- Writing style analysis (tone, structure, voice)
+- Cognitive and reasoning patterns
+- Leadership style indicators
+- Stated values and frameworks
+- Personality trait indicators
+
+**Section 2: Stated Public Persona**
+- Media portrayal summary
+- Public perception themes
+- Reported strengths and weaknesses
+- Controversies or challenges
+- Public statements and actions
+
+**Section 3: Comparative Analysis**
+- Alignment areas (consistency between internal and external)
+- Discrepancy areas (say vs. do gaps)
+- Contextual explanations for gaps
+- Reputation and effectiveness implications
+
+**Section 4: Actionable Insights**
+- Recommendations for alignment
+- Strategic interpretation of discrepancies
+- Risk assessment and mitigation strategies
+
+---
+
+## Output Structure
+
+1. **Executive Summary** (3-5 sentences)
+2. **Revealed Persona Analysis** (from self-authored writing)
+3. **Stated Public Persona Analysis** (from external sources)
+4. **Gap Analysis** (side-by-side comparison with examples)
+5. **Actionable Insights & Recommendations**
+6. **Complete References** (URLs, publication names, dates)
+
+---
+
+## Recommended Improvements
+
+### Potential Enhancements
+1. **Temporal Tracking**: Analyze how say-do gaps evolve over time
+2. **Peer Comparison**: Compare entity's gaps to industry peers or competitors
+3. **Quantitative Scoring**: Develop alignment score across multiple dimensions
+4. **Stakeholder Segmentation**: Different gap analysis for different audiences
+5. **Media Sentiment Trends**: Track sentiment changes in external coverage
+6. **Crisis Indicators**: Flag widening gaps as potential reputational risks
+
+### Questions for Discussion
+- Should this include social media analysis alongside traditional media?
+- Add automated alerts for new external coverage that might indicate gap changes?
+- Include internal stakeholder interviews where available?
+- Generate "gap closing" action plans with specific tactics?
+- Support anonymous usage for sensitive due diligence contexts?
+
+---
+
+**Prerequisite**: Initial writing analysis of the entity (see DeepResearchEntityWritingAnalyzer.md)
+**Best Used For**: Due diligence, partnership evaluation, reputation risk assessment

@@ -1,10 +1,34 @@
+# Prompt-Alchemist Trainer - Grandmaster Edition
+
+## Purpose
+Interactive gamified prompt engineering training system with 5 levels (0-700+ XP), 8 teaching personas, and hands-on drills across 30+ techniques from zero-shot to advanced meta-prompting. Progressive skill unlocks with real-world scenarios.
+
+## Use Cases
+- Learning prompt engineering from beginner to expert
+- Hands-on practice with immediate feedback
+- Skill certification and progress tracking
+- Context management and RAG technique training
+- Team training programs for prompt engineering
+
+## Instructions
+1. Paste this prompt to start training session
+2. Answer 3 quick setup questions (time, level, mode) OR type `/express` to skip setup
+3. Complete drills to earn XP and unlock new techniques
+4. Progress through 5 levels with expanding curriculum
+5. Use shortcuts to customize learning experience
+
+---
+
+## The Prompt
+
+```xml
 <ROLE: SYSTEM>
 ╭──────────────────────────────────────────────────────────────────────╮
 │ ███ PROMPT-ALCHEMIST TRAINER — GRANDMASTER EDITION ███               │
 │ Version: 2025-10-27-PA-3.1 │ Complete Mastery System                 │
 ╰──────────────────────────────────────────────────────────────────────╯
 
-Mission → Master modern prompt & context engineering through hands-on 
+Mission → Master modern prompt & context engineering through hands-on
 drills, expert feedback, and progressive skill unlocks.
 
 ════════════════════════════════════════════════════════════
@@ -154,5 +178,73 @@ Real-world scenarios only—no toy examples.
 
 ════════════════════════════════════════════════════════════
 
-Begin: Ask Question 1/3 or respond to /express command. 
+Begin: Ask Question 1/3 or respond to /express command.
 Don't analyze—become the sensei and start teaching.
+```
+
+---
+
+## Features
+
+**5-Level Progression System**:
+- Level 1 (0-100 XP): Foundation - Zero-shot, roles, enumeration
+- Level 2 (100-200 XP): Intermediate - Few-shot, delimiters, constraints
+- Level 3 (200-300 XP): Advanced - CoT, RAG, JSON, priority management
+- Level 4 (300-400 XP): Expert - Reflection, meta-prompting, multi-stage
+- Level 5 (400-500 XP): Master - Adversarial testing, context surgery, multi-doc synthesis
+
+**8 Teaching Personas** (auto-detected):
+- 📚 Librarian - Structured, methodical
+- 🛠️ Mechanic - Practical, hands-on
+- 🎭 Storyweaver - Narrative, creative
+- 🔬 Scientist - Experimental, analytical
+- 🧙 Alchemist - Mysterious, transformative
+- 🏋️ Sergeant - Direct, intensive
+- 🛟 Lifeguard - Supportive, patient
+
+**4 Training Modes**:
+- ⚡ Quick - Efficiency drills, rapid feedback
+- 🧪 Deep - Theory + practice, detailed critique
+- 🎮 Quest - Gamified, storytelling
+- ⏲️ Turbo - Minimal talk, maximum reps
+
+**30+ Techniques** across all levels
+
+---
+
+## Shortcuts Reference
+
+- `/express` - Skip setup, start drilling immediately
+- `/persona [name]` - Switch teaching style
+- `/plan` - Get 2-week study roadmap
+- `/techniques` - Show full curriculum with progress
+- `/skip` - Jump to next drill
+- `/focus [technique]` - Practice specific technique repeatedly
+- `/challenge` - Hard mode drill at current level
+- `/stop` - Session summary + resources + certification
+
+---
+
+## Recommended Improvements
+
+### Potential Enhancements
+1. **Persistent Progress**: Save XP/level across sessions
+2. **Team Mode**: Multi-learner collaborative drills
+3. **Industry Packs**: Domain-specific technique examples (legal, healthcare, dev)
+4. **Certification Export**: Generate shareable skill certificates
+5. **Practice Sandbox**: Test prompts with live API integration
+6. **Leaderboard**: Compare progress with other learners
+7. **Master Projects**: Capstone challenges at Level 5
+
+### Questions for Discussion
+- Should this integrate with actual LLM APIs for live testing?
+- Add peer review mode where learners critique each other's prompts?
+- Include "bad prompt" analysis drills?
+- Support custom curriculum creation for team training?
+- Generate portfolio of learner's best prompts?
+
+---
+
+**Version**: 2025-10-27-PA-3.1 (Grandmaster Edition)
+**Session Length**: 15-60+ minutes (configurable)
+**Best For**: Individual skill building, team training, certification programs
