@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  LEE GONZALES: TOP 10 STRATEGIC PROMPT LIBRARY                               ║
+║  Version: 2025.11.24                                                         ║
+║  Curator: Claude (with Lee Gonzales)                                         ║
+║  Source: 40+ strategic conversations, 2024-2025                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+This XML file preserves the complete original strategic prompts library.
+Individual prompts have been extracted to markdown files in the prompts/ directory.
+
+See README.md for the full catalog and usage guides.
+-->
+
+<prompt_library>
+  <metadata>
+    <author>Lee Gonzales</author>
+    <curator>Claude</curator>
+    <version>2025.11.24</version>
+    <purpose>Strategic prompt library for AI transformation, research, writing, and teaching</purpose>
+    <philosophy>Poetic ∧ precise ∧ ∅fluff ∧ experimental</philosophy>
+  </metadata>
+
+  <extraction_note>
+    Individual prompts extracted to:
+    - Prompt #1: prompts/systems-and-meta/co-strategist-operating-system.md
+    - Prompt #2: prompts/research-and-analysis/company-intelligence-analyst.md
+    - Prompt #3: prompts/analysis-and-strategy/competitive-analysis-system.md
+    - Prompt #4: prompts/research-and-analysis/strategic-research-orchestrator.md
+    - Prompt #5: prompts/learning-and-education/prompt-alchemist-trainer-v3.md
+    - Prompt #6: prompts/writing-and-style/writing-style-analyzer-generator.md
+    - Prompt #7: prompts/learning-and-education/workshop-architect-framework.md
+    - Prompt #8: prompts/analysis-and-strategy/strategic-frameworks-interpreter.md
+    - Prompt #9: prompts/workflow-and-productivity/context-transfer-protocol.md
+    - Prompt #10: prompts/writing-and-style/anti-cliche-writing-system.md
+  </extraction_note>
+
+  <reference>
+    For full XML content, see git history or original source material.
+    This file serves as index and provenance record.
+  </reference>
+</prompt_library>

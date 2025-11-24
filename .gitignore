@@ -54,3 +54,13 @@ data/raw/*.jsonl
 CLAUDE.local.md
 GEMINI.local.md
 scratchpad.txt
+
+# Beads issue tracking
+.beads/
+
+# Working files and drafts
+draft*.md
+temp*.md
+scratch*.md
+notes*.md
+TODO.md
