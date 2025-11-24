@@ -1,33 +1,110 @@
-# AIPrompts
-**LLM Experiments**
+# AI Prompts Library
 
-This repository contains a collection of experiments using ChatGPT and other large language models. It is intended for others to use as a reference for further experimentation, and as a starting point for building new tools, services, and products.
+A curated collection of professional AI prompts for various use cases, from writing analysis to coaching and strategic thinking. These prompts are designed to work with modern LLMs like GPT-4, Claude, and similar models.
 
-**About ChatGPT
-ChatGPT is a variant of the GPT-3 language model, which was developed by OpenAI. It is designed specifically for chatbot and conversational AI applications, and is trained on a large dataset of human-generated text.
+## Overview
 
-This repository is licensed under the MIT License. You can find the full text of the license in the LICENSE.md file.
-Further Reading
-- [GPT-3: What You Need to Know](https://openai.com/blog/gpt-3-what-you-need-to-know/)
-- [How to Use OpenAI’s GPT-3 API](https://towardsdatascience.com/how-to-use-openai-s-gpt-3-api-for-free-2ef5c5b3f26d)
-- [Creating a Chatbot with GPT-3](https://towardsdatascience.com/creating-a-chatbot-with-gpt-3-f5c5e5df1be5)
+This repository contains battle-tested prompts developed for real-world applications including:
+- Stylometric analysis and writing replication
+- Professional coaching and skill development
+- Organizational analysis and strategic planning
+- Workflow optimization and productivity
 
-Target Repository Structure
+## Repository Structure
+
+```
 .
-├── LICENSE.md
-├── README.md
-├── data/
-│   ├── raw/
-│   └── processed/
-├── models/
-├── notebooks/
-├── results/
-├── scripts/
-└── src/
+├── prompts/
+│   ├── writing-and-style/       # Writing analysis & style replication
+│   ├── coaching-and-training/   # Educational & coaching prompts
+│   ├── analysis-and-strategy/   # Business & org analysis
+│   └── workflow-and-productivity/ # Workflow & process optimization
+├── legacy/                      # Historical prompts & experiments
+├── examples/                    # Usage examples & outputs
+├── LICENSE.md                   # MIT License
+└── README.md                    # This file
+```
 
-  data/: This directory contains any raw or processed data that the experiments use. Separate subdirectories for raw and processed data may be included to keep things organized.
-  models/: This directory contains any pre-trained models or model checkpoints that the experiments use.
-  notebooks/: This directory contains any Jupyter notebooks or other interactive scripts that are used to explore or test the experiments.
-  results/: This directory contains any output or intermediate results that the experiments generate.
-  scripts/: This directory contains any standalone scripts or command-line tools that are used to run the experiments.
-  src/: This directory contains any modular code or libraries that are used in the experiments.
+## Prompt Categories
+
+### Writing & Style
+- **WritingAnalyzer.md** - Stylometric analysis for voice cloning
+- **WritingStyleAnalyzer.md** - Style extraction and replication
+- **DeepResearchEntityWritingAnalyzer.md** - Deep research-focused writing analysis
+
+### Coaching & Training
+- **ai-opportunity-coach-prompt.md** - AI opportunity discovery coaching
+- **PROMPT-ALCHEMIST-TEACHER.md** - Prompt engineering training system
+- **Prompt_Trainer.md** - Interactive prompt training sessions
+
+### Analysis & Strategy
+- **OrgSayVSDoGapAnalyzer.md** - Organizational alignment analysis
+
+### Workflow & Productivity
+- **context-continuity-export.md** - Context transfer between AI sessions
+
+## How to Use
+
+1. **Browse the categories** in the `prompts/` directory to find relevant prompts
+2. **Copy the prompt** content from the markdown file
+3. **Customize** the prompt for your specific use case (most prompts have clear customization points)
+4. **Paste** into your LLM of choice (ChatGPT, Claude, etc.)
+5. **Iterate** based on results
+
+### Best Practices
+
+- Read the full prompt before using to understand its structure and purpose
+- Many prompts include system role definitions - paste these at the start of a new conversation
+- Some prompts use state management or memory systems - follow the internal instructions carefully
+- Experiment with parameters and adapt prompts to your specific needs
+
+## Contributing
+
+Contributions are welcome! If you have prompts that have proven valuable in your work:
+
+1. Fork this repository
+2. Add your prompt to the appropriate category (or create a new one)
+3. Include clear documentation about what the prompt does and how to use it
+4. Submit a pull request
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+## Quality Standards
+
+All prompts in this repository should:
+- Be production-tested (actually used in real work)
+- Include clear instructions or system role definitions
+- Be well-documented with purpose and use cases
+- Follow a consistent markdown format
+- Avoid hardcoded personal information
+
+## Legacy Content
+
+The `legacy/` directory contains historical prompts from earlier ChatGPT experiments. These are preserved for reference but may not work well with modern models.
+
+## License
+
+This repository is licensed under the MIT License. See [LICENSE.md](LICENSE.md) for details.
+
+You are free to use, modify, and distribute these prompts. Attribution is appreciated but not required.
+
+## Author
+
+**Lee K Gonzales**
+- Founder, Catalyst AI Services
+- Director of AI Transformation, BetterUp
+- Contact: lee@catalystai.services
+
+## Acknowledgments
+
+These prompts represent years of experimentation and real-world application across various domains. Special thanks to the AI research community for inspiration and feedback.
+
+## Further Reading
+
+- [Prompt Engineering Guide](https://www.promptingguide.ai/)
+- [OpenAI Best Practices](https://platform.openai.com/docs/guides/prompt-engineering)
+- [Anthropic's Claude Prompt Design](https://docs.anthropic.com/claude/docs/introduction-to-prompt-design)
+
+---
+
+Last updated: November 2025

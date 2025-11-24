@@ -1,0 +1,56 @@
+# AI Prompts Repository - Gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+secrets/
+keys/
+*.pem
+
+# IDE
+.vscode/
+.idea/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+.scratch/
+
+# Large files (models, datasets)
+*.pt
+*.h5
+*.ckpt
+*.safetensors
+data/raw/*.csv
+data/raw/*.jsonl
+
+# Local Claude context
+.claude/
+CLAUDE.local.md
+GEMINI.local.md
+scratchpad.txt
