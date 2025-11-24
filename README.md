@@ -52,6 +52,7 @@ This repository contains battle-tested prompts developed for real-world applicat
 ### Analysis & Strategy
 - **OrgSayVSDoGapAnalyzer.md** - Organizational alignment analysis
 - **synthetic-workforce-inevitability-engine.md** - Business opportunity discovery in AI era
+- **arbitrage-opportunity-analyst.md** (Power: 9/10) - Systematic arbitrage discovery across 8 asymmetry types with ethics-integrated 8-stage methodology
 - **competitive-analysis-system.md** (Power: 10/10) - 6-framework competitive intelligence with OODA/Wardley/Rumelt/Christensen/Martin/Kagan
 - **strategic-frameworks-interpreter.md** (Power: 9/10) - Apply OODA, Wardley, Cynefin, Dreyfus, and more to any situation
 
