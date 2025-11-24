@@ -8,6 +8,9 @@ This repository contains battle-tested prompts developed for real-world applicat
 - Stylometric analysis and writing replication
 - Professional coaching and skill development
 - Organizational analysis and strategic planning
+- Daily briefings and intelligence gathering
+- Research and fact-checking tools
+- Learning and education systems
 - Workflow optimization and productivity
 
 ## Repository Structure
@@ -15,14 +18,18 @@ This repository contains battle-tested prompts developed for real-world applicat
 ```
 .
 ├── prompts/
-│   ├── writing-and-style/       # Writing analysis & style replication
-│   ├── coaching-and-training/   # Educational & coaching prompts
-│   ├── analysis-and-strategy/   # Business & org analysis
-│   └── workflow-and-productivity/ # Workflow & process optimization
-├── legacy/                      # Historical prompts & experiments
-├── examples/                    # Usage examples & outputs
-├── LICENSE.md                   # MIT License
-└── README.md                    # This file
+│   ├── writing-and-style/          # Writing analysis & style replication
+│   ├── coaching-and-training/      # Educational & coaching prompts
+│   ├── analysis-and-strategy/      # Business & org analysis
+│   ├── workflow-and-productivity/  # Context transfer & process optimization
+│   ├── daily-briefings/            # Daily intelligence & information prompts
+│   ├── learning-and-education/     # Tutorial & skill-building prompts
+│   └── research-and-analysis/      # Fact-checking & discovery tools
+├── legacy/                         # Historical prompts & experiments
+├── examples/                       # Usage examples & outputs
+├── CONTRIBUTING.md                 # Contribution guidelines
+├── LICENSE.md                      # MIT License
+└── README.md                       # This file
 ```
 
 ## Prompt Categories
@@ -39,33 +46,91 @@ This repository contains battle-tested prompts developed for real-world applicat
 
 ### Analysis & Strategy
 - **OrgSayVSDoGapAnalyzer.md** - Organizational alignment analysis
+- **synthetic-workforce-inevitability-engine.md** - Business opportunity discovery in AI era
 
 ### Workflow & Productivity
-- **context-continuity-export.md** - Context transfer between AI sessions
+
+#### Context Export Variants (Choose Based on Needs)
+
+We provide three variants of context export prompts, each optimized for different scenarios:
+
+| Variant | Best For | Length | Key Features |
+|---------|----------|---------|--------------|
+| **[Simple](prompts/workflow-and-productivity/context-continuity-export-simple.md)** | Quick handoffs, straightforward projects | ~500 words | 8 core sections, no setup, instant use |
+| **[Comprehensive](prompts/workflow-and-productivity/context-continuity-export-comprehensive.md)** | Complex projects, team handoffs | ~1000 words | 10 sections including concepts, frameworks, onboarding note |
+| **[Adaptive](prompts/workflow-and-productivity/context-continuity-export-adaptive.md)** | Variable complexity, sensitive contexts | 200-1000 words | Interactive mode selection, content filtering |
+
+**When to use each:**
+- **Simple**: Single user, clear scope, need context transfer now
+- **Comprehensive**: Multi-session projects, team collaboration, high stakes
+- **Adaptive**: Uncertain scope, mixed audiences, sensitive information
+
+All variants create self-contained markdown artifacts for seamless conversation handoffs between AI sessions.
+
+### Daily Briefings
+- **executive-brief-daily.md** - Industry headlines, market updates, leadership insights
+- **weather-intelligence-immersive.md** - Time-aware, vivid weather forecasting
+
+### Learning & Education
+- **algorithms-tutor-daily.md** - Daily CS fundamentals with progressive Q&A
+
+### Research & Analysis
+- **claimify-fact-checker.md** - Extract and structure factual claims for verification
+- **openai-pdf-hunter.md** - Discover new OpenAI system cards and technical docs
 
 ## How to Use
 
 1. **Browse the categories** in the `prompts/` directory to find relevant prompts
-2. **Copy the prompt** content from the markdown file
-3. **Customize** the prompt for your specific use case (most prompts have clear customization points)
-4. **Paste** into your LLM of choice (ChatGPT, Claude, etc.)
-5. **Iterate** based on results
+2. **Read the prompt header** (Purpose, Use Cases, Instructions) to understand what it does
+3. **Copy the prompt** from "The Prompt" section
+4. **Customize** based on "Customization Notes" if needed
+5. **Paste** into your LLM of choice (ChatGPT, Claude, etc.)
+6. **Review** the "Recommended Improvements" section for potential enhancements
 
 ### Best Practices
 
-- Read the full prompt before using to understand its structure and purpose
+- Read the full prompt file before using to understand its structure and purpose
 - Many prompts include system role definitions - paste these at the start of a new conversation
 - Some prompts use state management or memory systems - follow the internal instructions carefully
 - Experiment with parameters and adapt prompts to your specific needs
+- Check "Differences from Other Variants" sections when multiple versions exist
+
+## Prompt Structure
+
+Each prompt file follows a consistent format:
+
+```markdown
+# Prompt Name
+
+## Purpose
+[What this prompt does]
+
+## Use Cases
+[When and why to use it]
+
+## Instructions
+[How to use it]
+
+---
+
+## The Prompt
+[The actual prompt to copy/paste]
+
+---
+
+## Recommended Improvements
+[Potential enhancements and discussion questions]
+```
 
 ## Contributing
 
 Contributions are welcome! If you have prompts that have proven valuable in your work:
 
 1. Fork this repository
-2. Add your prompt to the appropriate category (or create a new one)
-3. Include clear documentation about what the prompt does and how to use it
-4. Submit a pull request
+2. Add your prompt to the appropriate category (or propose a new one)
+3. Follow the standard prompt structure (see CONTRIBUTING.md)
+4. Include "Recommended Improvements" section
+5. Submit a pull request
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
@@ -75,7 +140,8 @@ All prompts in this repository should:
 - Be production-tested (actually used in real work)
 - Include clear instructions or system role definitions
 - Be well-documented with purpose and use cases
-- Follow a consistent markdown format
+- Follow the consistent markdown format
+- Include "Recommended Improvements" section
 - Avoid hardcoded personal information
 
 ## Legacy Content

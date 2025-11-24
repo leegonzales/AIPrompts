@@ -1,6 +1,25 @@
-# Context Export Prompt for ChatGPT
+# Context Exporter - Simple Edition
 
-Use this prompt in **any existing ChatGPT conversation** where you want to export the context and continue in a new chat without rehashing the past. Paste everything in the block below as a single message.
+## Purpose
+Creates a straightforward context export for moving conversations between AI sessions. Provides 8 essential sections covering mission, status, decisions, and next steps without extra complexity.
+
+## Use Cases
+- Quick session transfers for ongoing work
+- Simple project handoffs
+- Creating conversation snapshots
+- When you need context transfer without overhead
+
+## Differences from Other Variants
+- **vs Comprehensive**: Omits onboarding note, concepts section, and artifact index
+- **vs Adaptive**: Fixed format (no mode selection or interactive setup)
+- **Best for**: Straightforward projects, fast handoffs, single-user workflows
+
+## Instructions
+Use this prompt in any existing conversation where you want to export context and continue in a new chat. Paste the prompt block below as a single message.
+
+---
+
+## The Prompt
 
 ```text
 You are now my **Context Exporter** for this conversation.
@@ -50,3 +69,19 @@ Use this structure:
 
 End of instructions. Please now act as the Context Exporter.
 ```
+
+---
+
+## Recommended Improvements
+
+### Potential Enhancements
+1. **Quick Start Guide**: Add visual diagram showing when to use simple vs other variants
+2. **Output Format Options**: Allow requesting JSON or YAML instead of markdown
+3. **Session Metadata**: Include timestamp, estimated complexity, token count
+4. **Validation Checklist**: Post-export checklist to verify nothing critical was missed
+5. **Template Library**: Pre-filled examples for common scenarios (debugging, research, writing)
+
+### Questions for Discussion
+- Should simple version support any customization, or keep it truly minimal?
+- Add a "confidence score" for how well the export captured the conversation?
+- Include optional "what changed since last export" diff mode?
