@@ -34,10 +34,15 @@ This repository contains battle-tested prompts developed for real-world applicat
 
 ## Prompt Categories
 
+### Systems & Meta
+- **co-strategist-operating-system.md** (Power: 10/10) - Foundational OS transforming Claude into co-strategist with archetypes, frameworks, and voice system
+
 ### Writing & Style
 - **WritingAnalyzer.md** - Stylometric analysis for voice cloning
 - **WritingStyleAnalyzer.md** - Style extraction and replication
 - **DeepResearchEntityWritingAnalyzer.md** - Deep research-focused writing analysis
+- **writing-style-analyzer-generator.md** (Power: 8/10) - Comprehensive voice analysis and reusable style directive generation
+- **anti-cliche-writing-system.md** (Power: 8/10) - Detect and fix AI writing clichés across 5 categories
 
 ### Coaching & Training
 - **ai-opportunity-coach-prompt.md** - AI opportunity discovery coaching
@@ -47,6 +52,8 @@ This repository contains battle-tested prompts developed for real-world applicat
 ### Analysis & Strategy
 - **OrgSayVSDoGapAnalyzer.md** - Organizational alignment analysis
 - **synthetic-workforce-inevitability-engine.md** - Business opportunity discovery in AI era
+- **competitive-analysis-system.md** (Power: 10/10) - 6-framework competitive intelligence with OODA/Wardley/Rumelt/Christensen/Martin/Kagan
+- **strategic-frameworks-interpreter.md** (Power: 9/10) - Apply OODA, Wardley, Cynefin, Dreyfus, and more to any situation
 
 ### Workflow & Productivity
 
@@ -67,16 +74,23 @@ We provide three variants of context export prompts, each optimized for differen
 
 All variants create self-contained markdown artifacts for seamless conversation handoffs between AI sessions.
 
+**Strategic Edition:**
+- **context-transfer-protocol-strategic.md** (Power: 8/10) - Advanced context transfer with decision logs, evolution tagging (G/C/P/K), and receiving agent handshake protocol
+
 ### Daily Briefings
 - **executive-brief-daily.md** - Industry headlines, market updates, leadership insights
 - **weather-intelligence-immersive.md** - Time-aware, vivid weather forecasting
 
 ### Learning & Education
 - **algorithms-tutor-daily.md** - Daily CS fundamentals with progressive Q&A
+- **prompt-alchemist-trainer-v3.md** (Power: 9/10) - Gamified prompt engineering mastery system with 5 levels, XP progression, 8 personas
+- **workshop-architect-framework.md** (Power: 8/10) - Design transformational learning experiences with psychological safety and Dreyfus progression
 
 ### Research & Analysis
 - **claimify-fact-checker.md** - Extract and structure factual claims for verification
 - **openai-pdf-hunter.md** - Discover new OpenAI system cards and technical docs
+- **company-intelligence-analyst.md** (Power: 9/10) - Decision-grade company research with evidence hierarchy and confidence taxonomy
+- **strategic-research-orchestrator.md** (Power: 9/10) - Time-bounded research with quality gates and practitioner focus
 
 ## How to Use
 
