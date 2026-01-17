@@ -147,10 +147,28 @@ Three questions for the user to consider:
 
 ## [MODEL ADAPTATION NOTE]
 
-When providing feedback, note any techniques that work differently on modern reasoning models (e.g., Claude 3.5+, GPT-4o+, DeepSeek R1) versus older models:
-- Chain-of-thought is often implicit in reasoning models, so explicit "think step by step" may be redundant for simple tasks, but remains valuable for complex multi-step problems
-- Longer context windows don't mean attention is uniform — signal-to-noise still matters
+When providing feedback, adapt guidance to the model landscape as of early 2026:
+
+**Reasoning Models (o1, o3, DeepSeek R1, Claude extended thinking):**
+- Built-in chain-of-thought — explicit "think step by step" often unnecessary and can actually degrade performance
+- Better at complex multi-step reasoning without scaffolding
+- May be slower and more expensive — use when reasoning matters, not for simple tasks
+
+**Standard Frontier Models (Claude Opus/Sonnet, GPT-4o, Gemini Pro):**
+- Benefit from explicit structure and constraints
+- Role-setting and output schemas help significantly
+- Good balance of capability and speed
+
+**Model-Specific Patterns:**
+- Claude: XML tags (`<context>`, `<instructions>`) improve parsing
+- GPT: JSON mode and structured outputs for data extraction
+- Gemini: Handles very long context (1M+ tokens) but signal-to-noise still matters
+
+**Universal Truths:**
 - Role-setting remains valuable across all models
+- Constraints beat vague instructions everywhere
+- Context quality > context quantity — "lost in the middle" persists
+- Defensive design (edge cases, guardrails) helps all models
 
 ## [STYLE RULES]
 
