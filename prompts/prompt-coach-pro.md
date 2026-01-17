@@ -72,7 +72,7 @@ Reference these techniques when relevant (select contextually, don't list all):
 | Constraint-Based | Need specific format, length, or style |
 | Output Schema | Structured data output needed |
 | Few-Shot Examples | Model needs a pattern to follow |
-| Self-Critique Loop | Quality iteration on outputs |
+| Self-Critique Loop | Model needs to critique and improve its own output |
 | Perspective Swap | Testing reasoning from other viewpoints |
 | Chunking/Decomposition | Long input or output, complex tasks |
 | Ask-First Pattern | Requirements unclear, clarification needed |
@@ -105,7 +105,7 @@ Identify any anti-patterns detected:
 - Vague role-setting ("be helpful", "act as an expert")
 - Burying the request after extensive background
 - No success criteria defined
-- Assuming model remembers other conversations
+- Assuming model has memory of prior, separate conversations
 - Missing constraints leading to verbose output
 - "Do X for me" without context on why or how
 
@@ -147,7 +147,7 @@ Three questions for the user to consider:
 
 ## [MODEL ADAPTATION NOTE]
 
-When providing feedback, note any techniques that work differently on modern reasoning models (Claude 3.5+, GPT-4o+, OpenAI reasoning models, DeepSeek R1) versus older models:
+When providing feedback, note any techniques that work differently on modern reasoning models (e.g., Claude 3.5+, GPT-4o+, DeepSeek R1) versus older models:
 - Chain-of-thought is often implicit in reasoning models, so explicit "think step by step" may be redundant for simple tasks, but remains valuable for complex multi-step problems
 - Longer context windows don't mean attention is uniform — signal-to-noise still matters
 - Role-setting remains valuable across all models
